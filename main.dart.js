@@ -11555,7 +11555,7 @@ _.b=a
 _.c=null},
 agF:function agF(){},
 agG:function agG(){},
-aqC(a,b,c){return new A.vJ(a,c,b,new A.SP(null,null,1/0,56),null)},
+aqC(a,b,c,d){return new A.vJ(a,d,b,c,new A.SP(null,null,1/0,56),null)},
 aCi(a,b){var s=A.aZ(a).RG.Q
 if(s==null)s=56
 return s+0},
@@ -11565,12 +11565,13 @@ _.e=a
 _.f=b
 _.a=c
 _.b=d},
-vJ:function vJ(a,b,c,d,e){var _=this
+vJ:function vJ(a,b,c,d,e,f){var _=this
 _.d=a
 _.e=b
 _.ax=c
-_.fx=d
-_.a=e},
+_.cy=d
+_.fx=e
+_.a=f},
 Y0:function Y0(a,b){this.a=a
 this.b=b},
 Bu:function Bu(a){var _=this
@@ -49176,7 +49177,7 @@ A.wr.prototype={
 am(){return new A.PE(B.n)}}
 A.PE.prototype={
 P(a){var s=null
-return A.atN(A.aqC(!0,B.j,A.tS("assets/dreampot_logo_white.svg",B.cg,s,s)),A.atX(A.hF(A.a([new A.O3(s),A.jR(s,16,s),new A.Bi(s)],t.F),B.al,B.ae,B.a8)))}}
+return A.atN(A.aqC(!0,B.j,!0,A.tS("assets/dreampot_logo.svg",B.cg,s,s)),A.atX(A.hF(A.a([new A.O3(s),A.jR(s,16,s),new A.Bi(s)],t.F),B.al,B.ae,B.a8)))}}
 A.pm.prototype={
 am(){return new A.SQ(A.aqD(),null,null,B.n)}}
 A.SQ.prototype={
@@ -49204,7 +49205,7 @@ m(){var s=this.d
 s===$&&A.b()
 s.m()
 this.Zw()},
-P(a){var s,r,q,p=this,o=null,n=A.aqC(!1,B.j,A.tS("assets/dreampot_logo.svg",B.cg,o,o)),m=t.w,l=A.cH(a,o,m).w,k=A.cq(o,A.a7g(o,A.tS("assets/printer.svg",B.cg,o,o),o,o,o,o,o,o),B.p,o,o,o,o,o,o,o,o,o,o),j=p.e
+P(a){var s,r,q,p=this,o=null,n=A.aqC(!1,B.j,o,A.tS("assets/dreampot_logo.svg",B.cg,o,o)),m=t.w,l=A.cH(a,o,m).w,k=A.cq(o,A.a7g(o,A.tS("assets/printer.svg",B.cg,o,o),o,o,o,o,o,o),B.p,o,o,o,o,o,o,o,o,o,o),j=p.e
 j===$&&A.b()
 s=t.F
 j=A.mY(B.fW,A.a([A.lU(j,new A.ahw(p),o)],s),B.a6,B.bI)
@@ -51966,8 +51967,9 @@ H5(a,b){return new A.n(0,a.b-b.b)},
 qr(a){return this.b!==a.b}}
 A.SP.prototype={}
 A.vJ.prototype={
-a2y(a){var s=new A.Y0(this,a).$0()
-return s},
+a2y(a){var s=this.cy
+if(s==null)s=a.RG.y
+return s==null?new A.Y0(this,a).$0():s},
 am(){return new A.Bu(B.n)},
 lR(a){return A.EM().$1(a)}}
 A.Y0.prototype={
