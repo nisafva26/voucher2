@@ -49104,7 +49104,7 @@ i=p.f
 g=i.length
 s=p.e
 if(s==null)s=$.aAm()
-m=A.jR(new A.yX(s,new A.ajn(p),new A.aaq(new A.ajo(p,n),g,o),o),405,m.a.a)
+m=A.jR(new A.yX(s,new A.ajn(p),new A.aaq(new A.ajo(p,n),g,o),o),415,m.a.a)
 r=J.II(g,h)
 for(h=p.d,q=0;q<g;++q)r[q]=A.a2s(o,new A.cC(B.Fs,A.aqz(o,new A.cw(h===q?i[q].d:B.es,o,o,o,o,o,B.ba),B.cm,8,o,o,8),o),B.bc,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.ajp(p,q),o,o,o)
 return A.jR(A.hF(A.a([new A.xE(k,o),B.U3,B.e1,j,B.e1,m,B.e1,A.pu(r,B.al,B.dw,B.a8),B.Oo],t.F),B.al,B.ae,B.a8),o,l.a.a)},
@@ -49176,7 +49176,7 @@ A.wr.prototype={
 am(){return new A.PE(B.n)}}
 A.PE.prototype={
 P(a){var s=null
-return A.atN(A.aqC(!0,B.j,A.tS("assets/dreampot_logo.svg",B.cg,s,s)),A.atX(A.hF(A.a([new A.O3(s),A.jR(s,16,s),new A.Bi(s)],t.F),B.al,B.ae,B.a8)))}}
+return A.atN(A.aqC(!0,B.j,A.tS("assets/dreampot_logo_white.svg",B.cg,s,s)),A.atX(A.hF(A.a([new A.O3(s),A.jR(s,16,s),new A.Bi(s)],t.F),B.al,B.ae,B.a8)))}}
 A.pm.prototype={
 am(){return new A.SQ(A.aqD(),null,null,B.n)}}
 A.SQ.prototype={
